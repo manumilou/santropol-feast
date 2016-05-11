@@ -30,6 +30,8 @@ Some useful resources:
 
 Please join `#feastproject` on *irc.freenode.net*. 
 
+A mailing list will be soon available.
+
 ## Installation
 
 Please refer to the https://github.com/savoirfairelinux/santropol-feast/blob/dev/INSTALL.md[installation procedure].
