@@ -1,8 +1,9 @@
 node('docker') { // <1>
     stage('Build') { // <2>
         checkout scm
-        sh "pip install -r requirements.txt --user jenkins"
-        sh "pip install pep8 --user jenkins"
+        sh "whoami"
+        sh "pip install -r requirements.txt"
+        sh "pip install pep8"
         sh "pep8 --count --show-source --exclude=migrations src/"
     }
     stage('Test') {
