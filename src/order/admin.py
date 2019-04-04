@@ -33,6 +33,7 @@ class OrderAdmin(admin.ModelAdmin):
         'price',
         'delivery_date',
         'creation_date',
+        'modification_date',
     )
     actions = [make_delivered]
     inlines = [

@@ -342,6 +342,13 @@ class Order(models.Model):
         auto_now_add=True
     )
 
+    # Modification date
+    modification_date = models.DateField(
+        verbose_name=_('modification date'),
+        auto_now=True,
+        null=True,
+    )
+
     delivery_date = models.DateField(
         verbose_name=_('delivery date')
     )
